@@ -1,0 +1,103 @@
+.body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(189, 221, 221);
+
+}
+
+.header {
+    background-color: grey;
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.nav-link {
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.left-section {
+    flex-direction: column;
+    min-width: 500px;
+   }
+
+.contacts-links {
+    display: flex;
+    align-items: center;
+
+}
+
+.link {
+    text-decoration: none;
+    color: grey;
+
+}
+
+.link:hover {
+    color: black;
+    background-color: grey;
+    font-weight: bold;
+
+}
+
+.contacts-icon {
+    padding-right: 5px;
+}
+
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+   
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+.subtitle {
+    font-family: 'Times New Roman', Times, serif;
+    border-left: 7px solid grey;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+
+.elon-pic {
+    border: 3px solid white;
+}
+
+
+.footer {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.footer>* {
+    color: white;
+    text-decoration: none;
+}
+
+.left-section>h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
